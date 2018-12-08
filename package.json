@@ -1,0 +1,33 @@
+{
+  "name": "@aszydelko/eslint-config-vue",
+  "version": "1.0.1",
+  "description": "This is a personal eslit configuration for vue.js projects.",
+  "author": "Arkadiusz Szydelko",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akszydelko/eslint-config-vue.git"
+  },
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vue"
+  ],
+  "dependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.10.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-find-rules": "3.3.1",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-vue": "5.0.0"
+  }
+}
