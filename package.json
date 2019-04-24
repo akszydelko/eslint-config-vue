@@ -1,6 +1,6 @@
 {
   "name": "@aszydelko/eslint-config-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a personal eslit configuration for vue.js projects.",
   "author": "Arkadiusz Szydelko",
   "license": "MIT",

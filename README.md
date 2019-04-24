@@ -5,7 +5,7 @@ This is a personal eslint configuration for Vue.js projects.
 ## Install
 
 ```bash
-npm i @aszydelko/eslint-config-vue
+npm i @aszydelko/eslint-config-vue --save-dev
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm i @aszydelko/eslint-config-vue
 This config is designed to work with the `extends` feature of `.eslintrc` files.
 [Learn more](http://eslint.org/docs/developer-guide/shareable-configs)
 
-Then, add this to your `.eslintrc` file:
+Then, add this to your `.eslintrc` or `package.json` file:
 
 ```
 {
@@ -22,7 +22,16 @@ Then, add this to your `.eslintrc` file:
 ```
 
 You can override settings from this config by adding them directly into your
-`.eslintrc` file.
+`.eslintrc` or `package.json` file.
+
+#### Commands
+
+Recommended set of commands to put in `package.json` scripts:
+
+```
+  "lint:js": "eslint --ext .js,.vue .",
+  "lint-autofix:js": "eslint --ext .js,.vue . --fix",
+```
 
 ## License
 
