@@ -127,13 +127,6 @@ module.exports = {
     }
   ],
   settings: {
-    'import/resolver': {
-      node: {
-        extensions: [
-          '.js',
-          '.vue'
-        ]
-      }
-    }
+    'import/resolver': 'webpack'
   }
 };
