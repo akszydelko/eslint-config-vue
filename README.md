@@ -1,11 +1,11 @@
 ## ESLint configuration
 
-This is a personal eslint configuration for Vue.js projects.
+ESLint configuration for Vue.js projects.
 
 ## Install
 
 ```bash
-npm i @aszydelko/eslint-config-vue --save-dev
+npm i @infermedica/eslint-config-vue --save-dev
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Then, add this to your `.eslintrc` or `package.json` file:
 
 ```
 {
-  "extends": "@aszydelko/eslint-config-vue"
+  "extends": "@infermedica/eslint-config-vue"
 }
 ```
 
@@ -35,4 +35,4 @@ Recommended set of commands to put in `package.json` scripts:
 
 ## License
 
-MIT Copyright (c) Arkadiusz Szydełko
+MIT Copyright (c) Infermedica

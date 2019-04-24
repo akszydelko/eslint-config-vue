@@ -1,13 +1,13 @@
 {
-  "name": "@aszydelko/eslint-config-vue",
-  "version": "1.0.3",
-  "description": "This is a personal eslit configuration for vue.js projects.",
-  "author": "Arkadiusz Szydelko",
+  "name": "@infermedica/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "ESLit configuration for vue.js projects.",
+  "author": "Infermedica",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/akszydelko/eslint-config-vue.git"
+    "url": "git+ssh://git@github.com/infermedica/eslint-config-vue.git"
   },
   "files": [
     "*.js",
