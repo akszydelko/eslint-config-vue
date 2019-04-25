@@ -1,4 +1,4 @@
-## ESLint configuration
+# Infermedica ESLint configuration
 
 ESLint configuration for Vue.js projects.
 
@@ -10,10 +10,10 @@ npm i @infermedica/eslint-config-vue --save-dev
 
 ## Usage
 
-This config is designed to work with the `extends` feature of `.eslintrc` files.
-[Learn more](http://eslint.org/docs/developer-guide/shareable-configs)
+This config is designed to work with the `extends` feature of `.eslintrc` files,
+[learn more](http://eslint.org/docs/developer-guide/shareable-configs).
 
-Then, add this to your `.eslintrc` or `package.json` file:
+Add this to your `.eslintrc` or `package.json` file:
 
 ```
 {
